@@ -5,6 +5,7 @@ import {useState} from "react";
 
 
 function App() {
+
   const [output, setOutput] = useState('0');
 
   let plus = () => {
@@ -12,11 +13,12 @@ function App() {
       currentCount++;
       setOutput(currentCount)
   }
-  let minus = () => {
-      let currentCount = output;
-      currentCount--;
-      setOutput(currentCount)
-  }
+
+    let minus = () => {
+        let currentCount = output;
+        currentCount--;
+        setOutput(currentCount)
+    }
 
   return (
     <div>
