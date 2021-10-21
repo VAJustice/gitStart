@@ -8,17 +8,17 @@ function App() {
 
   const [output, setOutput] = useState('0');
 
-  let plus = () => {
-      let currentCount = output;
-      currentCount++;
-      setOutput(currentCount)
-  }
-
     let minus = () => {
         let currentCount = output;
         currentCount--;
         setOutput(currentCount)
     }
+    let plus = () => {
+      let currentCount = output;
+      currentCount++;
+      setOutput(currentCount)
+    }
+
 
   return (
     <div>
