@@ -44,7 +44,7 @@
 .text{
   color: aliceblue;
   font-size: 62pt;
-  border-radius: 100px 100px 100px 100px;
+  border-radius: 50%;
   text-align: center;
   position: absolute;
   top: 40%;
